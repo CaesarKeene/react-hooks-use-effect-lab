@@ -4,6 +4,7 @@ function Question({ question, onAnswered }) {
   const [timeRemaining, setTimeRemaining] = useState(10);
 
   // add useEffect code
+  const useEffect = 
 
   function handleAnswer(isCorrect) {
     setTimeRemaining(10);
